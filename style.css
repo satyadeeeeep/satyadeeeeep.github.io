@@ -1,0 +1,97 @@
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "SoDo Sans semibold",Helvetica,sans-serif ;
+}
+.main{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
+}
+.nav-left svg{
+    width: 50px;
+}
+
+.nav-left{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-left,.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-left > *,
+.nav-right>* {
+    margin: 10px;
+}
+.loc-right{
+    display: flex;
+    align-items: center;
+}
+.sig , .log {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+.log{
+    background-color: black;
+    color: aliceblue;
+}
+.product{
+    margin: 40px 0px 40px 0px;
+    display: flex;
+}
+.prodleft img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.prodleft , .prodright{
+    max-width: 50%;
+    width: 50%;
+}
+.proddec{
+    color: white;
+    font-size: 22px;
+    margin: 40px;
+   
+}
+.prodright{
+    text-align: center;
+    
+}
+.proddes{
+    text-align: center;
+}
+.prodbtn{
+    text-align: center;
+    margin: auto;
+    color: white;
+    border: 1px solid whitesmoke;
+    padding: 5px 20px 5px 20px;
+    width: fit-content;
+    border-radius: 40px;
+}
+.i4 img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.footer {
+    padding: 50px;
+    text-align: center;
+}
